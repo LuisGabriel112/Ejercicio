@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans Display'
+}
+
+body{
+    background: rgb(245,0,255);
+background: linear-gradient(56deg, rgba(245,0,255,1) 0%, rgba(0,71,255,1) 52%, rgba(45,247,253,1) 100%);
+}
+
+body{
+    background-color: rgb(0, 174, 255);
+}
+
+nav{
+    list-style-type: none;
+    
+}
+
+ul{
+    color: white;
+    float: right;
+    margin-right: 300px;
+    margin-top: 15px;
+    
+}
+
+.especial{
+    padding-right: 10px;
+    border: 1px solid white ;
+    border-radius: 5px;
+    padding: 10px 35px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.especial2{
+    margin-right: 500px;
+    font-size: x-large;
+}
+
+li{
+    display: inline;
+    margin: 50px;
+    margin-right: 10px;
+}
+
+.tit{
+    color: white;
+    font-weight: 300;
+    float: left;
+    font-size: 90px;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.texto{
+    color: white;
+    margin-top: 530px;
+    margin-left: 100px;
+}
+
+.chico{
+    font-weight: 200;
+}
+
+.formulario{
+    background-color: whitesmoke;
+    height: 350px;
+    width: 500px;
+    float: right;
+    margin-right: 400px;
+    margin-top: -500px;
+    border-radius: 3px;
+    box-shadow: 1px -1px 19px 0px rgba(0,0,0,0.39);
+-webkit-box-shadow: 1px -1px 19px 0px rgba(0,0,0,0.39);
+-moz-box-shadow: 1px -1px 19px 0px rgba(0,0,0,0.39);
+padding-bottom: 100px;
+}
+
+
+.botonv{
+    background-color: rgb(81, 160, 87);
+    border-radius: 30px;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 480px;
+    font-weight: 200px; 
+    margin-left: 90px; 
+}
+
+.forms{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.inp{
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    border: 0px solid;
+    padding-left: 50px;
+    padding-right: 80px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+
+.register{
+    background-image: linear-gradient(to right, rgb(0, 89, 255) , rgb(0, 68, 255));
+    float: left;
+    background-color: rgb(0, 140, 255);
+    margin-left: 65px;
+    margin-top: 10px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
+.register:hover{
+    background: none;
+    border: 1px solid blue;
+    color: black;
+}
+
+.especial:hover{
+    background-image: linear-gradient(to right,purple ,blue);
+    border: none;
+}
+
+.tituloForm{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+
+}
+
+.botonv:hover{
+    background: white;
+    color: black;
+     
+    
+}

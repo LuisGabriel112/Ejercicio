@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #000000;
+    font-family: 'Inter';
+}
+
+.cuadro-p{
+    align-items: center;
+    margin: 140px 100px 100px 550px;
+    border-radius: 20px;
+    background-color: #080808;
+    height: 700px;
+    width: 700px;
+    border:1px solid tomato;    
+    padding-left: 100px;
+    
+}
+
+.sing{
+    font-size: 72px;
+    color: white;
+    font-weight: 500;
+    text-align: left;
+    font-size: 70px;
+    padding: 60px 40px 0px 14px ;
+    margin: 4px 0px 0px 40px;
+}
+
+.mail{
+    color: white;
+    font-weight: 300;
+    margin:40px 50px 0px 108px;
+    font-size: 20px;
+}
+
+.psw{
+    color: white;
+    font-weight: 300;
+    margin:40px 50px 0px 108px;
+    font-size: 20px;
+}
+
+
+.inp1{
+    margin: 5px 0px 0px 108px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color:#1d1d1d ;
+    border-radius: 10px;
+    border: none;
+}
+
+.inp2{
+    margin: 5px 0px 0px 108px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color:#1d1d1d ;
+    border-radius: 10px;
+    border: none;
+}
+
+.inp3{
+    margin: 80px 0px 0px 108px;
+    width: 400px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #FF0000, #FF9800);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.inp3:hover{
+    box-shadow: 1px 1px 10px 5px #8b2700;
+    transition: 1s;
+}
+
+
+
+.support-questions{
+    color: #5a5a5a;
+    margin: 50px 0px 0px 180px ;
+}
+
+.support-questions2{
+    margin: 30px 0px 0px 250px ;
+}
+
+a:hover{
+    color: white;
+    transition: 1s;
+}
+
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+    transition: 1s;
+}

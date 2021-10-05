@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-contact{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    height: 650px;
+    width: 500px;
+    margin: 170px 0px 0px 690px;
+    border-radius: 15px;
+    position: relative;
+    transition: 1s;
+
+}
+
+
+#ciculo{
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 160px;
+    font-size: 180px;
+}
+
+.Nombre{
+    text-align: center;
+    padding: 300px 0px 0px 0px;
+    color: white;
+}
+
+.description{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    word-spacing: 10px;
+}
+
+.stats,li{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 26px 0px 38px;
+}
+
+.letras{
+    text-align: center;
+}
+
+.posts{
+    font-size: 22px;
+    margin: -4px 0px 0px -170px;
+    position: absolute;
+}
+
+.seguidores{
+    font-size: 22px;
+    margin: -4px 0px 0px -52px;
+    position: absolute;
+}
+
+.following{
+    font-size: 22px;
+    margin: -4px 0px 0px 92px;
+    position: absolute;
+}
+
+.boton{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: absolute;
+    margin: 120px 0px 0px 45px;
+    padding: 10px 150px 0px 150px;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    width: 100px ;
+    height: 36px;
+    border-radius: 50px;
+    text-align: center;
+    transition: 2s;
+}
+
+.card-contact:hover{
+    box-shadow:0px 0px 19px 1px #000;
+    padding-top: 10px;
+    transition: 1s;
+}
+
+.boton:hover{
+    background: transparent;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 2s;
+}
+

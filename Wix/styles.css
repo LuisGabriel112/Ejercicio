@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Madefor,HelveticaNeueW01-Thin,HelveticaNeueW02-Thin,HelveticaNeueW10-35Thin,sans-serif;
+}
+
+
+.img-h{
+    margin: 20px 0px 0px 45px;
+}
+
+#X{
+    float: right;
+    margin: 10px 50px 0px 0px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.title{
+    color: #20303c;
+    text-align: center;
+    font-size: 55px;
+    margin: 120px 0px 0px 0px;
+}
+
+.under{
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.Register{
+    color: #116dff;
+    text-decoration: none;
+}
+
+.form{
+    margin:48px 0px 0px 548px;
+}
+
+.pass{
+    margin: 52px 0px 0px 8px;
+    border-style: none;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0px 118px 0px 10px;
+}
+
+.mail{
+    margin: 0px 0px 0px 10px;
+    border-style: none;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0px 118px 0px 10px;
+}
+
+::placeholder{
+    font-family: sans-serif;
+    font-size: 19px;
+    text-align: left;
+    padding: 0px 0px 10px 0px;
+}
+
+.lab1{
+    font-size: 14px;
+}
+
+.remember{
+    margin: 25px 0px 0px 14px;
+}
+
+.empass{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #575656;
+}
+
+.empass:hover{
+    color: #116dff;
+}
+
+.btns{
+    text-align: center;
+    margin: 52px 631px 0px 0px;
+}
+
+.btns a{
+    text-decoration: none;
+    color: white;
+    background-color:#116dff ;
+    padding: 12px 31px;
+    border-radius: 50px;
+    font-size: 17px;
+}
+
+.line-v{
+    background-color: #858f96;
+    height: 250px;
+    width: 1px;
+    margin: -230px 0px 10px 965px;
+}
+
+.social-media{
+    height: 253px;
+    width: 377px;
+    background-color: transparent;
+    float: right;
+    margin: -263px 650px 0px 0px;
+    position: relative;
+}
+
+.btn-FB{
+    position: absolute;
+    height: 55px;
+    width: 295px;
+    background:#3b5998;
+    margin: 26px 0px 0px 200px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #3b5998;
+}
+
+.FB{
+    position: absolute;
+    margin: 35px 0px 0px 177px;
+    width: 97px;
+    height: 37px;
+    z-index: 1;
+}
+
+.GG{
+    position: absolute;
+    margin: 110px 0px 0px 177px;
+    width: 97px;
+    height: 37px;
+    z-index: 1;
+}
+
+.apple{
+    position: absolute;
+    margin: 180px 0px 0px 212px;
+    border:none;
+    width: 30px;
+    height: 37px;
+    z-index: 1;
+}
+
+
+.letra{
+    position: absolute;
+    color: white;
+    margin: 45px -189px 0px 291px;
+    font-size: 14px;
+}
+
+.letra2{
+    position: absolute;
+    color: white;
+    margin: 119px -189px 0px 298px;
+    font-size: 14px;
+}
+
+.letra3{
+    position: absolute;
+    color: black;
+    margin: 192px -189px 0px 298px;
+    font-size: 14px;
+}
+
+.cuadro{
+    margin: 27px 10px 10px 201px;
+    position: absolute;
+    height: 55px;
+    width: 51px;
+    background: white;
+}
+
+.cuadro1{
+    position: absolute;
+    height: 55px;
+    width: 51px;
+    background: white;
+    z-index: 1;
+    margin: 173px -77px 0px 202px;
+    border-right: 1px solid black;
+}
+
+.cuadro2{
+    margin: 101px 10px 10px 201px;
+    position: absolute;
+    height: 55px;
+    width: 51px;
+    background: white;
+}
+
+.btn-Google{
+    position: absolute;
+    height: 55px;
+    width: 295px;
+    background:#4285f4;
+    margin: 100px 0px 0px 200px;
+    border: 1px solid #4285f4;
+}
+
+.btn-apple{
+    position: absolute;
+    height: 55px;
+    width: 295px;
+    background:white;
+    border: 1px solid black;
+    margin: 172px 0px 0px 200px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 55px;
+    font-size: 15px;
+}
+
+.terminos{
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.line-B{
+    margin: -10px 0px 0px 594px;
+    height: 1px;
+    width: 681px;
+    background: #858f96;
+}
+
+.terminos2{
+    color: black;
+}

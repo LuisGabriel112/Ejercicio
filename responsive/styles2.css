@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    background-color: aqua;
+}
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+    color: blue;
+}
+
+.st{
+    margin-left: 800px;
+}
+
+@media only screen and (max-width: 1125px) {
+    .st{
+        margin-left: 420px;
+    }
+  }
+
+  @media only screen and (max-width: 739px) {
+    .st{
+        margin-left: 220px;
+    }
+  }
+
+  @media only screen and (max-width: 535px) {
+    .st{
+        margin-left: 60px;
+    }
+  }
+  
+  @media only screen and (max-width: 353px) {
+    .ul{
+       display: list-item;
+    }
+  }

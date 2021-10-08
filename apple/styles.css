@@ -1,0 +1,399 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans Display';
+}
+
+body{
+    background-color: #f5f5f7;
+}
+
+nav{
+    position: relative;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 15px 60px 12px 0px;
+    font-size: 13px;
+    color: #d0d0d0;
+}
+
+.nav{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.781);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.fa-apple{
+    position: absolute;
+    margin: 13px 0px 10px -100px;
+    color: #d6d6d6;
+}
+
+.fa-search{
+    position: absolute;
+    margin: 14px 0px 10px 0px;
+    color: #d6d6d6;
+}
+
+.fa-shopping-bag{
+    position: absolute;
+    margin: 13px 0px 10px 80px;
+    color: #d6d6d6;
+}
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 320px;
+    color: rgb(35, 31, 32);
+    font-weight: 600;
+    word-spacing: -50px;
+}
+
+.sub{
+    margin-top: 514px;
+    font-size: 40px;
+    font-weight: 600;
+    word-spacing: -5px;
+    color: rgb(35, 31, 32);
+}
+
+.more-info{
+    text-decoration: none;
+    color: #06c;
+    margin-right: 10px;
+}
+
+.more-info2{
+    text-decoration: none;
+    color: #06c;
+    margin-right: 30px;
+}
+
+.help{
+    margin-top: 10px;
+}
+
+.iphone{
+    margin-top: 70px;
+}
+
+.section{
+    background-color: #35283c;
+    width: 100%;
+    height: 1300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trece{
+    color: #ffffff;
+}
+
+.iphone13{
+    position: absolute;
+    color: white;
+    margin-top: 530px;
+    font-weight: 500;
+    font-size: 40px;
+    word-spacing: -10px;
+}
+
+.more-info3{
+    position: absolute;
+    text-decoration: none;
+    color: #fec2eb;
+    margin: 595px 0px 0px -140px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.more-info4{
+    position: absolute;
+    text-decoration: none;
+    color: #fec2eb;
+    margin: 595px 0px 0px 190px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.more-info3:hover{
+    text-decoration: underline;
+}
+
+.more-info4:hover{
+    text-decoration: underline;
+}
+
+.phones{
+    position: absolute;
+    bottom: 10px;
+    height: 550px;
+    margin-bottom: -10px;
+}
+
+footer{
+    position: relative;
+    background-color: #1d1d1f;
+    width: 100%;
+    height: 540px;
+}
+
+.footer{
+    margin: 0px 0px 0px 93px;
+}
+
+
+.foo{
+    position: absolute;
+    margin: 18px 0px 0px 293px;
+    list-style: none;
+}
+
+.foo li{
+    color: #a1a1a6;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+.titles{
+    font-weight: bold;
+    color: #e9e9eb;
+}
+
+
+.foo2{
+    position: absolute;
+    margin: 18px 0px 0px 481px;
+    list-style: none;
+}
+
+.foo2 li{
+    color: #a1a1a6;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+.foo3{
+    position: absolute;
+    margin: 18px 0px 0px 691px;
+    list-style: none;
+}
+
+.foo3 li{
+    color: #a1a1a6;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+.foo4{
+    position: absolute;
+    margin: 18px 0px 0px 894px;
+    list-style: none;
+}
+
+.foo4 li{
+    color: #a1a1a6;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+.foo5{
+    position: absolute;
+    margin: 18px 0px 0px 1142px;
+    list-style: none;
+}
+
+.foo5 li{
+    color: #a1a1a6;
+    font-size: 13px;
+    padding-bottom: 8px;
+}
+
+.foo-p{
+    position: absolute;
+    font-size: 10px;
+    bottom: 10px;
+    color: #67676c;
+    margin: 0px 0px 42px 388px;
+    word-spacing: 4px;
+}
+
+
+.foo-p a{
+    text-decoration: none;
+    color: #2472bd;
+}
+
+.line{
+    border-bottom: solid 1px #424245;
+    position: absolute;
+    height: 1px;
+    width: 1075px;
+    bottom: 10px;
+    margin: 0px 0px 33px 388px;
+}
+
+.foo-p2{
+    position: absolute;
+    font-size: 10px;
+    bottom: 10px;
+    color: #67676c;
+    margin: 0px 0px 10px 388px;
+    word-spacing: 4px;
+}
+
+.foo-p3{
+    position: absolute;
+    font-size: 10px;
+    bottom: 10px;
+    color: #67676c;
+    margin: 0px 0px 10px 781px;
+}
+
+.foo-p3 a{
+    text-decoration: none;
+    color: #96969b;
+    margin-right:15px;
+    border-right:1px solid white;
+    padding-right:10px;
+}
+
+.country{
+    position: absolute;
+    bottom: 21px;
+    right: 375px;
+    font-size: 10px;
+    margin: 0px 0px 0px 174px;
+    text-decoration: none;
+    color: #96969b;
+    margin-right:15px;
+    padding-right:10px;
+}
+
+@media only screen and (max-width: 2560px){
+    .all-foo-bottom{
+        margin: 0px 0px 0px 400px;
+    }
+    .footer{
+        margin: 0px 0px 0px 500px;
+    }
+    .country{
+        right: 672px;
+    }
+}
+
+@media only screen and (max-width: 1920px){
+    .footer{
+        margin: 0px 0px 0px 93px;
+    }
+
+        .all-foo-bottom{
+        margin: 0px 0px 0px -1px;
+    }
+    .country{
+        right: 437px;
+    }
+}
+
+
+@media only screen and (max-width: 1440px){
+    .footer{
+        margin: 0px 0px 0px -100px;
+    }
+    .all-foo-bottom{
+        margin: 0px 0px 0px -200px;
+    }
+    
+    .country{
+        right: 154px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px){
+    .section{
+        width: 2874px;
+        margin-right: -100px;
+    }
+    .trece {
+        margin-right: -100px;
+    }
+    .iphone13{
+        margin-right: -100px;
+    }
+    .more-info3{
+        margin-right: -100px;
+    }
+    .more-info4{
+        margin-right: -100px;
+    }
+
+    .nav li{
+        display: inline-block;
+        padding: 15px 93px -3px -5px;
+        font-size: 17px;
+        font-weight: lighter;
+        color: #d0d0d0;
+        padding: 10px 10px 10px 50px;
+    }
+
+    .tienda{
+        margin: 0px 0px 0px -210px;
+    }
+
+    .fa-apple{
+        position: absolute;
+        margin: 12px 0px 0px -200px;
+        color: #d6d6d6;
+    }
+    
+    .fa-search{
+        position: absolute;
+        margin: 14px 0px 0px 10px;
+        color: #d6d6d6;
+    }
+    
+    .fa-shopping-bag{
+        position: absolute;
+        margin: 13px 0px 0px 60px;
+        color: #d6d6d6;
+    }
+    footer{
+        width: 2000px;
+    }
+
+    .footer{
+        margin: 0px 0px 0px -200px;
+    }
+    .all-foo-bottom{
+        margin: 0px 0px 0px -316px;
+    }
+
+    h1{
+        margin-left: 140px;
+    }
+    .sub{
+        margin-left: 140px;
+    }
+    .help{
+        margin-left: 140px;
+    }
+
+    .iphone{
+        margin-left: 140px;
+    }
+}

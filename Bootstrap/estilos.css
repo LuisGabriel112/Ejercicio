@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+main{
+    position: relative;
+}
+
+.navbar{
+    position: fixed;
+}
+
+.navbar a{
+    color: black;
+}
+
+.navbar a:hover{
+    color: rgb(184, 1, 1);
+    transition: 0.5s;
+    text-shadow: 1px 10px 10px black;
+}
+
+
+.contenedor-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.carta{
+    margin-top: 50px;
+}
+
+.card-abajo{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.card img{
+    height: 300px;
+    width: 540px;
+}
+
+video{
+    width: 100%;
+    position: relative;
+}
+
+.jefe-de-jefes{
+    height: 869px;
+    z-index: 1;
+    margin-top: -914px;
+}
+
+.carrusel{
+    margin-top: 39px;
+    background: black;
+    height: 800px;
+}
+
+
